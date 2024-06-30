@@ -24,3 +24,9 @@
 
   *Postal and financial services technician*
 
+### Languages
+1. Russian - native speaker
+2. English - A2
+3. Belarusian - A2
+4. Polish - A2
+
