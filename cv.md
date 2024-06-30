@@ -9,3 +9,7 @@
 - Phone: +48 507 8 567 89
 - E-mail: baltarus@icloud.com
 - Telegram: @baltarusss
+
+### Myself
+
+> _In recent years, I decided to make a big change in my life, and web development caught my attention. I see great opportunities for growth and self-realization in this direction. Web development allows you to create something new and useful, and work in a dynamic and creative environment. This is exactly what I'm looking for._
