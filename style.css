@@ -26,9 +26,9 @@ body {
     margin-top: 25px;
 }
 
-.avatar {
-    width: 100px;
-    height: 100px;
+.awatar {
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -109,4 +109,18 @@ body {
 
 .right-logo {
     margin-left: auto;
+}
+
+.logogithub {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.logors {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
 }
