@@ -32,8 +32,8 @@ body {
 }
 
 .awatar {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -105,6 +105,10 @@ body {
 }
 
 .left-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
     margin-right: auto;
 }
 
@@ -113,19 +117,9 @@ body {
 }
 
 .right-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
     margin-left: auto;
-}
-
-.logogithub {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.logors {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    object-fit: cover;
 }
