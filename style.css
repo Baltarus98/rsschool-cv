@@ -32,8 +32,8 @@ body {
 }
 
 .awatar {
-    width: 80px;
-    height: 80px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -105,8 +105,8 @@ body {
 }
 
 .left-logo {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     object-fit: cover;
     margin-right: auto;
@@ -114,11 +114,12 @@ body {
 
 .footer p {
     margin: 0;
+    font-weight: bold;
 }
 
 .right-logo {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     object-fit: cover;
     margin-left: auto;
