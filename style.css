@@ -2,25 +2,38 @@ html {
     scroll-behavior: smooth;
 }
 
-
 body {
     background-color: #8795d4;
 }
 
 .container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            height: 100vh;
+            box-sizing: border-box;
+            background-color: #8795d4;
+        }
+            
+.twocolumns {
     display: flex;
-    background-color: #8795d4;
-    margin-bottom: 25px;
+    width: calc(100% - 40px); /* Учитываем отступы слева и справа */
+    height: calc(100% - 40px);
+    margin-left: 20px; /* Отступ слева */
+    margin-right: 20px; /* Отступ справа */
+    margin-top: 20px;
+    margin-bottom: 20px; /* Отступ снизу */
+    background-color: #68a691;
 }
 
 .left-column {
     flex: 0.4;
-    background-color: #6874ad;
-    margin-top: 25px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    padding: 15px;
-    height: 100%;
+    margin-left: 0px;
+    margin-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #582fa1;
 }
 
 .header-left-column {
@@ -32,27 +45,22 @@ body {
 }
 
 .awatar {
-    width: 220px;
-    height: 220px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     object-fit: cover;
 }
 
 .header-left-column h1 {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .header-left-column h2 {
-    margin-top: 0;
+    margin-top: 5px;
 }
 
 .menu {
     margin-left: 25px;
-}
-
-.nav-list li {
-    color: black;
-    font-weight: bold;
 }
 
 .nav-link {
@@ -65,18 +73,13 @@ body {
     margin-bottom: 10px;
 }
 
-.nav-list li:last-child {
-    margin-bottom: 0;
-}
-
 .right-column {
     flex: 1;
-    background-color: #6874ad;
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-bottom: 20px;
-    padding: 10px;
-    height: 100%;
+    margin-left: 15px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #ab2e2e;
 }
 
 .section-title {
@@ -100,8 +103,10 @@ body {
     justify-content: space-between;
     background-color:#6874ad; 
     color: black;
-    padding: 20px;
-    text-align: center;
+    width: calc(100% - 40px);
+    margin-left: 20px; 
+    margin-right: 20px; 
+    margin-bottom: 20px;
 }
 
 .left-logo {
@@ -112,12 +117,7 @@ body {
     margin-right: auto;
     margin-left: 20px;
 }
-
-.footer p {
-    margin: 0;
-    font-weight: bold;
-}
-
+    
 .right-logo {
     width: 80px;
     height: 80px;
@@ -125,4 +125,9 @@ body {
     object-fit: cover;
     margin-left: auto;
     margin-right: 20px;
+}
+
+.footer p {
+    margin: 0;
+    font-weight: bold;
 }
