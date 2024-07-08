@@ -1,129 +1,113 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
+    background-color: #8795d4; /* Цвет фона */
+} /* Установка цвета для элемента <div class="container"> */
 
-/* Контейнер */
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Две колонки */
-.two-columns {
     display: flex;
-    flex-wrap: wrap;
-}
-
-.left-column, .right-column {
-    flex: 1;
-    padding: 20px;
-}
+    background-color: #8795d4; /* Цвет фона */
+    margin-bottom: 25px; /* Отступ снизу для элемента <footer> ????????*/ 
+} /* Установка цвета и расположение для элемента <div class="left-column"> */
 
 .left-column {
-    max-width: 300px;
-    background-color: #2c3e50;
-    color: #ecf0f1;
+    flex: 0.4; /* Занимает доступное пространство */
+    background-color: #6874ad; /* Цвет фона */
+    margin-top: 25px; /* Отступ сверху */
+    margin-left: 20px; /* Отступ слева */
+    margin-bottom: 20px; /* Отступ снизу */
+    padding: 15px; /* Внутренний отступ*/
+    height: 100%; /* Занимает всю высоту .container */
 }
 
-.right-column {
-    flex: 3;
-}
-
-/* Стили для заголовка */
-header {
+.header-left-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    margin-top: 25px;
 }
 
-header img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin-bottom: 20px;
+.avatar {
+    width: 100px; /* Задать ширину */
+    height: 100px; /* Задать высоту */
+    border-radius: 50%; /* Сделать изображение круглым */
+    object-fit: cover; /* Убедиться, что изображение покрывает всю область */
 }
 
-header h1 {
-    font-size: 24px;
-    margin: 10px 0;
+.header-left-column h1 {
+    margin-bottom: 10px; /* Отступ снизу для h1 */
 }
 
-header h2 {
-    font-size: 18px;
-    font-weight: normal;
-    margin: 5px 0;
-    color: #95a5a6;
+.header-left-column h2 {
+    margin-top: 0; /* Убираем отступ сверху для h2, если он есть */
 }
 
-/* Стили для навигации */
 .menu {
-    margin-top: 20px;
+    margin-left: 25px; /* Отступ слева, можно изменить значение по необходимости */
 }
 
-.nav-list {
-    list-style: none;
-    padding: 0;
+.nav-list li {
+    color: black; /* Цвет текста */
+    font-weight: bold; /* Жирный текст */
 }
 
 .nav-link {
-    display: block;
-    padding: 10px 0;
-    text-decoration: none;
-    color: #ecf0f1;
-    font-size: 16px;
+    color: black; /* Цвет ссылок */
+    font-weight: bold; /* Жирный текст для ссылок */
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
 }
 
-.nav-link:hover {
-    background-color: #34495e;
-    padding-left: 10px;
-    transition: all 0.3s;
+.nav-list li {
+    margin-bottom: 10px; /* Отступ снизу для каждого элемента списка */
 }
 
-/* Стили для секций */
-.section {
-    margin-bottom: 30px;
+/* Убираем отступ у последнего элемента списка */
+.nav-list li:last-child {
+    margin-bottom: 0;
+}
+
+.right-column {
+    flex: 1; /* Занимает доступное пространство */
+    background-color: #6874ad; /* Цвет фона */
+    margin-top: 25px; /* Отступ сверху */
+    margin-left: 25px; /* Отступ слева */
+    margin-bottom: 20px; /* Отступ снизу */
+    padding: 10px; /* Внутренний отступ*/
+    height: 100%; /* Занимает всю высоту .container */
 }
 
 .section-title {
-    font-size: 20px;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #2c3e50;
-    padding-bottom: 5px;
+    margin-left: 40px; /* Отступ слева, можно изменить значение по необходимости */
 }
 
-/* Стили для ссылок */
-a {
-    color: #3498db;
-    text-decoration: none;
+.contacts-li {
+    color: black; /* Черный цвет */
+    text-decoration: none; /* Убирает подчеркивание */
 }
 
-a:hover {
-    text-decoration: underline;
+.projects-li {
+    color: black; /* Черный цвет */
+    font-weight: bold; /* Жирный шрифт */
+    text-decoration: none; /* Убирает подчеркивание */
 }
 
-/* Стили для футера */
 .footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #2c3e50;
-    color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#6874ad; 
+    color: black; /* Цвет текста */
+    padding: 20px; /* Отступы внутри футера */
+    text-align: center; /* Центровка текста */
 }
 
-.footer a {
-    color: #3498db;
-}
-
-.footer img {
-    width: 100px;
-    margin: 10px;
+.left-logo {
+    margin-right: auto;
 }
 
 .footer p {
-    margin: 10px 0 0;
+    margin: 0; /* Убираем отступы у параграфа */
+}
+
+.right-logo {
+    margin-left: auto;
 }
