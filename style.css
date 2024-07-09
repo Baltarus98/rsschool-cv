@@ -3,17 +3,22 @@ html {
 }
 
 body {
-    background-color: #8795d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+    background-color: #b5dde8;
 }
 
 .container {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
+    width: 1400px;
     height: auto; 
     box-sizing: border-box;
-    background-color: #8795d4;
+    background-color: #b5dde8;
 }
 
 .twocolumns {
@@ -23,8 +28,8 @@ body {
     margin-left: 20px; 
     margin-right: 20px; 
     margin-top: 20px;
-    margin-bottom: 20px; 
-    background-color: #68a691;
+    margin-bottom: 20px;
+    background-color: #b5dde8;
 }
 
 .left-column {
@@ -33,8 +38,10 @@ body {
     margin-right: 15px;
     margin-top: 0px;
     margin-bottom: 0px;
-    background-color: #582fa1;
-    height: auto; 
+    background-color: #6874ad;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 400px;
 }
 
 .header-left-column {
@@ -46,8 +53,8 @@ body {
 }
 
 .awatar {
-    width: 80px;
-    height: 80px;
+    width:220px;
+    height: 220px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -76,8 +83,9 @@ body {
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    background-color: #ab2e2e;
+    background-color: #9ad6bb;
     height: auto; 
+    border-radius: 10px;
 }
 
 .section-title {
@@ -106,26 +114,19 @@ body {
     margin-right: 20px; 
     margin-bottom: 20px;
     height: auto;
+    border-radius: 10px;
 }
 
-.left-logo {
+.left-logo, .right-logo {
     width: 80px;
     height: 80px;
     border-radius: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
     object-fit: cover;
-    margin-right: auto;
-    margin-left: 20px;
+    
 }
     
-.right-logo {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-left: auto;
-    margin-right: 20px;
-}
-
 .footer p {
     margin: 0;
     font-weight: bold;
