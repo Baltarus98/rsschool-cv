@@ -8,8 +8,8 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    align-items: center; /* Центрирует по горизонтали */
-    justify-content: center; /* Центрирует по вертикали */
+    align-items: center; 
+    justify-content: center; 
     background-color: #a89e32;
 }
 
