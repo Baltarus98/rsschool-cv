@@ -66,7 +66,7 @@ body {
 .awatar {
     width:220px;
     height: 220px;
-    border-radius: 50%;
+    border-radius: 30%;
     object-fit: cover;
 }
 
