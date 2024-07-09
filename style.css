@@ -1,24 +1,28 @@
-html {
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
     scroll-behavior: smooth;
 }
 
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%; 
-    margin: 0; 
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
     background-color: #b5dde8;
 }
 
 .container {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     width: 1400px;
-    height: auto; 
+    height: 100%;
     box-sizing: border-box;
     background-color: #b5dde8;
+    margin: 0;
+    padding: 20px;
 }
 
 .twocolumns {
