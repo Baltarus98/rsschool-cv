@@ -1,7 +1,4 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+html {
     scroll-behavior: smooth;
 }
 
@@ -11,14 +8,16 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: #b5dde8;
+    align-items: center; /* Центрирует по горизонтали */
+    justify-content: center; /* Центрирует по вертикали */
+    background-color: #a89e32;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    width: 1400px;
-    height: 100%;
+    width: 1200px;
+    height: auto;
     box-sizing: border-box;
     background-color: #b5dde8;
     margin: 0;
@@ -33,7 +32,7 @@ body {
     margin-right: 20px; 
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: #b5dde8;
+    background-color: #4f0c2c;
 }
 
 .left-column {
