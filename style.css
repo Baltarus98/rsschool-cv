@@ -16,7 +16,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    width: 1200px;
+    width: 1400px;
     height: auto;
     box-sizing: border-box;
     background-color: #b5dde8;
