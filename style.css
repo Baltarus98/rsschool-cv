@@ -127,11 +127,8 @@ body {
     width: 80px;
     height: 80px;
     border-radius: 30%;
-    object-fit: cover;
-}
-
-.image-container:hover {
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 20px #e4f2ee(255, 255, 255, 0.8);
+    transition: box-shadow 0.3s ease;
 }
 
 .footer p {
