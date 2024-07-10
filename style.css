@@ -35,7 +35,7 @@ body {
     padding: 20px;
     background-color: #a2d9eb;
     border: 4px #97cbdb solid;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     line-height: 1.6;
 }
 
@@ -46,7 +46,7 @@ body {
     padding: 20px;
     background-color: #9ee8d3;
     border: 4px #93d9c5 solid; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     line-height: 1.6;
 }
 
@@ -60,8 +60,7 @@ body {
     padding: 20px;
     background-color: #a2d9eb;
     border: 4px #97cbdb solid;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    transition: box-shadow 0.5s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 .header-left-column {
@@ -73,7 +72,7 @@ body {
 .awatar {
     width:220px;
     height: 220px;
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 20%;
     object-fit: cover;
 }
