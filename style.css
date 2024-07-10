@@ -6,7 +6,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #d8e6e2;
+    background-color: #e4f2ee;
+    font-family: Arial, sans-serif;
 }
 
 .container {
@@ -16,7 +17,7 @@ body {
     height: auto;
     width: 1100px;
     padding: 20px;
-    background-color: #d8e6e2;
+    background-color: #e4f2ee;
 }
 
 .twocolumns {
@@ -28,12 +29,14 @@ body {
 
 .left-column {
     flex: 0.35;
-    height: 600px;
+    height: 650px;
     margin-right: 15px;
     border-radius: 30px;
     padding: 20px;
-    background-color: #84b1bf;
-    border: 4px #79a3b0 solid;
+    background-color: #a2d9eb;
+    border: 4px #97cbdb solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    line-height: 1.6;
 }
 
 .right-column {
@@ -41,8 +44,10 @@ body {
     margin-left: 15px;
     border-radius: 30px;
     padding: 20px;
-    background-color: #9ad6bb;
-    border: 4px #8abfa7 solid; 
+    background-color: #9ee8d3;
+    border: 4px #93d9c5 solid; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    line-height: 1.6;
 }
 
 .footer {
@@ -53,8 +58,9 @@ body {
     width: 1060px; 
     border-radius: 30px;
     padding: 20px;
-    background-color: #84b1bf;
-    border: 4px #79a3b0 solid;
+    background-color: #a2d9eb;
+    border: 4px #97cbdb solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .header-left-column {
@@ -66,16 +72,17 @@ body {
 .awatar {
     width:220px;
     height: 220px;
-    border-radius: 30%;
+    border-radius: 20%;
     object-fit: cover;
 }
 
 .header-left-column h1 {
-margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .header-left-column h2 {
-margin-top: 5px;   
+    margin-top: 0px;
+    border-bottom: 2px solid #97cbdb;
 }
 
 .nav-link {
@@ -91,6 +98,7 @@ margin-top: 5px;
 .section-title {
     margin-left: 20px;
     margin-top: 20px;
+    border-bottom: 2px solid #93d9c5;
 }
 
 .textmyself {
@@ -108,6 +116,10 @@ margin-top: 5px;
     color: black;
     font-weight: bold;
     text-decoration: none;
+}
+
+.texteducation {
+    margin-left: 20px;
 }
 
 .left-logo, .right-logo {
